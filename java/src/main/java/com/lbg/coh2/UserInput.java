@@ -13,6 +13,7 @@ public class UserInput {
             case "right" -> 1;
             case "up" -> 2;
             case "down" -> 3;
+            case "quit" -> 4;
             default -> acceptInput();
         };
     }
