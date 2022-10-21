@@ -1,6 +1,5 @@
-package org.example;
+package com.lbg.coh2;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class UserInput {
