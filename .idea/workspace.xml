@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e5c014b-5c0c-4586-9330-ec61e574ec88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/grid_game/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/grid_game/src/main/java/org/example/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/lbg/coh2/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/test/java/com/lbg/coh2/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/lbg/coh2/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/lbg/coh2/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Work/Java/java_sprint1/team4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/workspace/team4/java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
