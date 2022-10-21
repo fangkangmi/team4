@@ -1,5 +1,7 @@
 package com.lbg.coh2;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -12,30 +14,30 @@ public class Game {
     void createGrid(int length, int width){
         this.grid = new boolean[width][length];
         Random gen = new Random();
-        treasureSpot[0] = gen.nextInt(0, length);
-        treasureSpot[1] = gen.nextInt(0, width);
+        treasureSpot[0] = gen.nextInt(length);
+        treasureSpot[1] = gen.nextInt( width);
         this.grid[treasureSpot[1]][treasureSpot[0]] = true;
     }
 
     void createPlayer(int length, int width){
         Random gen = new Random();
-        int rand = gen.nextInt(0,4);
+        int rand = gen.nextInt(4);
         switch (rand){
             case 0:
                 playerPosition[0] =0;
-                playerPosition[1] = gen.nextInt(0, width);
+                playerPosition[1] = gen.nextInt( width);
                 break;
             case 1:
                 playerPosition[0] =length;
-                playerPosition[1] = gen.nextInt(0, width);
+                playerPosition[1] = gen.nextInt( width);
                 break;
             case 2:
                 playerPosition[1] =0;
-                playerPosition[0] = gen.nextInt(0, length);
+                playerPosition[0] = gen.nextInt( length);
                 break;
             case 3:
                 playerPosition[1] =width;
-                playerPosition[0] = gen.nextInt(0, length);
+                playerPosition[0] = gen.nextInt( length);
                 break;
         }
     }
